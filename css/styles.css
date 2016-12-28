@@ -73,15 +73,25 @@ input:focus {
   outline: none;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
 .submit {
   background-color: rgb(192, 192, 192);
+  background-color: rgb(238, 238, 238);
   position: absolute;
-  right: 0;
+  right: -200px;
   height: 100%;
   width: 50px;
   top: 0;
   border-radius: 0 5px 5px 0;
   border: none;
+  color: black;
 }
 
 .submit:focus {

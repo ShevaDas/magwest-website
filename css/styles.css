@@ -110,8 +110,8 @@ input:-webkit-autofill:active {
   background-color: rgb(192, 192, 192);
   background-color: rgb(238, 238, 238);
   position: absolute;
-  right: -200px;
-  height: 100%;
+  right: -207px;
+  height: 99%;
   width: 50px;
   top: 0;
   border-radius: 0 5px 5px 0;
